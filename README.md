@@ -117,11 +117,11 @@ docker compose exec nexus sh -c 'cat /nexus-data/admin.password'; echo
 Ouvrez http://localhost:8081, cliquez sur **Sign in** et connectez-vous avec `admin` et ce mot de
 passe. Un assistant s'ouvre :
 
-1. choisissez un **nouveau mot de passe admin** — notez-le, vous en aurez besoin ;
-2. *Configure Anonymous Access* : choisissez **Enable anonymous access**. Tout le monde pourra
+1. choisissez un **nouveau mot de passe admin** — notez-le, vous en aurez besoin ; (adminadmin)
+3. *Configure Anonymous Access* : choisissez **Enable anonymous access**. Tout le monde pourra
    **lire** les dépôts (télécharger des paquets), mais seuls les comptes autorisés pourront
    **écrire** (publier) ;
-3. acceptez la licence (EULA) de la Community Edition et terminez l'assistant.
+4. acceptez la licence (EULA) de la Community Edition et terminez l'assistant.
 
 > Nexus crée d'office des dépôts `maven-*` et `nuget-*` : ils ne servent pas dans ce TP, ignorez-les.
 
